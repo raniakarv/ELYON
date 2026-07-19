@@ -1,0 +1,33 @@
+{
+  "compound_name": "",
+  "aliases": [],
+  "pubchem_cid": "",
+  "molecular_formula": "",
+  "molecular_weight": "",
+  "smiles": "",
+
+  "natural_sources": [],
+
+  "target_proteins": [],
+  "target_genes": [],
+
+  "biological_pathways": [],
+
+  "skin_functions": [],
+
+  "scientific_evidence": {
+    "in_vitro": 0,
+    "animal": 0,
+    "clinical": 0,
+    "systematic_reviews": 0,
+    "meta_analyses": 0
+  },
+
+  "safety": {
+    "toxicity": "",
+    "skin_irritation": "",
+    "regulatory_status": ""
+  },
+
+  "notes": ""
+}
