@@ -1,12 +1,18 @@
 {
   "compound_name": "Curcumin",
-  "aliases": [],
-  "pubchem_cid": "",
-  "molecular_formula": "",
-  "molecular_weight": "",
-  "smiles": "",
+  "aliases": [
+    "Diferuloylmethane",
+    "Curcumin I"
+],
+  "pubchem_cid": "969516",
+  "molecular_formula": "C21H20O6",
+  "molecular_weight": "368.4 g/mol",
+  "smiles": "COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O",
+  "inchi": "InChI=1S/C21H20O6/c1-26-20-11-14(5-9-18(20)24)3-7-16(22)13-17(23)8-4-15-6-10-19(25)21(12-15)27-2/h3-12,24-25H,13H2,1-2H3/b7-3+,8-4+"
 
-  "natural_sources": [],
+  "natural_sources": [
+    "Curcuma longa"
+  ],
 
   "target_proteins": [],
   "target_genes": [],
