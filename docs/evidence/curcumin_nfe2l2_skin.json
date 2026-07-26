@@ -84,6 +84,31 @@
   "direct_nfe2l2_measurement": true,
   "formulation_specific": false
 }
+{
+  "pmid": "21380847",
+  "year": 2011,
+  "title": "Curcumin induces stress response and hormetically modulates wound healing ability of human skin fibroblasts undergoing ageing in vitro",
+  "study_type": "In vitro experimental study",
+  "biological_model": "Serially passaged normal adult human skin fibroblasts",
+  "intervention": "Curcumin treatment at different concentrations",
+  "target_pathway": "Nrf2 and HO-1 stress response pathways",
+  "experimental_readout": "In vitro wound-healing response and stress-response pathway induction",
+  "main_findings": [
+    "Curcumin produced a biphasic dose-dependent effect on wound-healing ability",
+    "Low curcumin concentrations between 1 and 5 μM stimulated wound-healing ability",
+    "Higher curcumin concentrations inhibited wound-healing ability",
+    "Low-dose curcumin induced stress-response pathways including Nrf2 and HO-1 in human cells"
+  ],
+  "skin_relevance": "Direct human skin cell evidence",
+  "evidence_role": "Dose-response and mechanistic support",
+  "direct_nfe2l2_measurement": true,
+  "formulation_specific": false,
+  "dose_response": {
+    "relationship": "Biphasic hormetic",
+    "stimulatory_range": "1–5 μM",
+    "higher_doses": "Inhibitory"
+  }
+}
 ],
   "supporting_literature": [],
   "excluded_studies": []
