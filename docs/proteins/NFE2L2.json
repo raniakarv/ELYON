@@ -21,7 +21,14 @@
   "DNA-binding transcription factor activity",
   "RNA polymerase II cis-regulatory region sequence-specific DNA binding"
 ],
-  "pathways": [],
+  "pathways": [
+  {
+    "name": "KEAP1-NFE2L2 pathway",
+    "database": "Reactome",
+    "reactome_id": "R-HSA-9755511",
+    "parent_process": "Cellular response to chemical stress"
+  }
+],
   "associated_compounds": [
     "Curcumin"
   ],
@@ -42,6 +49,13 @@
     "source": "Comparative Toxicogenomics Database (CTD)",
     "evidence_for": [
       "Curcumin-NFE2L2 association"
+    ]
+  }
+  {
+  "source": "Reactome",
+  "accession": "R-HSA-9755511",
+  "evidence_for": [
+    "KEAP1-NFE2L2 pathway"
     ]
   }
 ]
