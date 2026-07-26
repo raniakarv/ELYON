@@ -1,0 +1,10 @@
+{
+  "compound": "Curcumin",
+  "target": "NFE2L2",
+  "context": "Skin",
+  "search_query": "curcumin AND (NFE2L2 OR NRF2) AND skin",
+  "total_pubmed_results": 31,
+  "primary_evidence": [],
+  "supporting_literature": [],
+  "excluded_studies": []
+}
