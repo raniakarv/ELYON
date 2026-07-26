@@ -4,6 +4,14 @@
   "context": "Skin",
   "search_query": "curcumin AND (NFE2L2 OR NRF2) AND skin",
   "total_pubmed_results": 31,
+  "scientific_evidence_score": {
+  "study_level": 6,
+  "mechanistic_directness": 4,
+  "context_relevance": 5,
+  "independent_replication": 3,
+  "total": 18,
+  "maximum": 20
+}
   "primary_evidence": [
   {
     "pmid": "28757910",
