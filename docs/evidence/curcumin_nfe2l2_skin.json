@@ -64,6 +64,26 @@
   "direct_nfe2l2_measurement": true,
   "formulation_specific": true
 }
+{
+  "pmid": "27514487",
+  "year": 2016,
+  "title": "Protective Effect of Curcumin Against Acute Ultraviolet B Irradiation-induced Photo-damage",
+  "study_type": "Animal in vivo and in vitro experimental study",
+  "biological_model": "Hairless mouse skin and immortalized human keratinocytes (HaCaT)",
+  "intervention": "Topical curcumin in mice and curcumin treatment in HaCaT cells",
+  "target_pathway": "Nrf2-dependent antioxidant response",
+  "experimental_readout": "Nrf2 nuclear accumulation and downstream antioxidant and photodamage-related endpoints",
+  "main_findings": [
+    "Topical curcumin induced Nrf2 nuclear accumulation in UVB-exposed hairless mouse skin",
+    "Curcumin reduced UVB-induced inflammatory changes, collagen derangement and lipid peroxidation in mouse skin",
+    "Curcumin reduced ROS production, LDH release and DNA damage in UVB-exposed HaCaT cells",
+    "Curcumin activated phase II detoxifying enzyme expression and promoted DNA repair activity in HaCaT cells"
+  ],
+  "skin_relevance": "Direct in vivo and in vitro skin evidence",
+  "evidence_role": "Mechanistic and phenotypic support",
+  "direct_nfe2l2_measurement": true,
+  "formulation_specific": false
+}
 ],
   "supporting_literature": [],
   "excluded_studies": []
