@@ -44,6 +44,26 @@
   "direct_nfe2l2_measurement": false,
   "formulation_specific": false
 }
+{
+  "pmid": "38812993",
+  "year": 2023,
+  "title": "Curcumin promotes skin wound healing by activating Nrf2 signaling pathways and inducing apoptosis in mice",
+  "study_type": "Animal in vivo experimental study",
+  "biological_model": "Mouse full-thickness skin wound model",
+  "intervention": "Topical curcumin, 5 mg/day in Vaseline",
+  "target_pathway": "Nrf2-HO-1 signaling pathway",
+  "experimental_readout": "Nrf2 and HO-1 protein levels measured by Western blot",
+  "main_findings": [
+    "Curcumin treatment increased Nrf2 and HO-1 protein levels compared with control",
+    "Curcumin treatment reduced ROS and MDA and increased SOD and GSH",
+    "Curcumin treatment increased collagen fiber formation",
+    "Curcumin treatment improved wound healing rates compared with control"
+  ],
+  "skin_relevance": "Direct in vivo skin",
+  "evidence_role": "In vivo mechanistic and phenotypic support",
+  "direct_nfe2l2_measurement": true,
+  "formulation_specific": true
+}
 ],
   "supporting_literature": [],
   "excluded_studies": []
