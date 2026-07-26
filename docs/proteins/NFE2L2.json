@@ -1,10 +1,48 @@
 {
-  "gene_symbol": "",
-  "protein_name": "",
-  "organism": "",
-  "function": "",
-  "uniprot_accession": "",
+  "gene_symbol": "NFE2L2",
+  "protein_name": "Nuclear factor erythroid 2-related factor 2",
+  "uniprot_accession": "Q16236",
+  "organism": "Homo sapiens",
+  "function": "Transcription factor and key regulator of the cellular response to oxidative stress. NFE2L2/NRF2 binds antioxidant response elements (AREs) and promotes the expression of cytoprotective genes involved in detoxification and redox homeostasis. It also contributes to the regulation of inflammatory responses.",
+  "subcellular_location": [
+  "Cytoplasm",
+  "Nucleus"
+],
+  "biological_processes": [
+  "cell redox homeostasis",
+  "cellular response to oxidative stress",
+  "response to oxidative stress",
+  "regulation of cellular response to oxidative stress",
+  "positive regulation of glutathione biosynthetic process",
+  "regulation of innate immune response"
+],
+  "molecular_functions": [
+  "DNA binding",
+  "DNA-binding transcription factor activity",
+  "RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+],
+  "pathways": [],
   "associated_compounds": [
     "Curcumin"
-  ]
+  ],
+  "references": [
+  {
+    "source": "UniProtKB",
+    "accession": "Q16236",
+    "evidence_for": [
+      "protein_name",
+      "organism",
+      "function",
+      "subcellular_location",
+      "biological_processes",
+      "molecular_functions"
+    ]
+  },
+  {
+    "source": "Comparative Toxicogenomics Database (CTD)",
+    "evidence_for": [
+      "Curcumin-NFE2L2 association"
+    ]
+  }
+]
 }
