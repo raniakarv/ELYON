@@ -50,22 +50,69 @@ Score:
 
 ---
 
-## Pillar 3
-### Scientific Evidence
+## Pillar 3 — Scientific Evidence
 
-Questions
+### Objective
 
-- Number of publications
-- Independent validation
-- In vitro studies
-- Animal studies
-- Clinical studies
-- Review articles
+Evaluate the strength, quality, relevance and reproducibility of the scientific evidence supporting a compound–target–skin relationship.
 
-Score:
-0–20
+### Evidence dimensions
 
----
+Scientific evidence is evaluated across four dimensions:
+
+#### 1. Study Level
+
+Evidence is weighted according to the experimental model:
+
+- In vitro experimental study
+- Animal in vivo study
+- Human observational study
+- Human intervention study
+- Randomized controlled human trial
+- Systematic review / meta-analysis
+
+Higher-level evidence receives greater weight, while mechanistic studies remain valuable for understanding biological activity.
+
+#### 2. Mechanistic Directness
+
+Evidence is classified according to how directly the study demonstrates the proposed molecular mechanism:
+
+- Direct target/pathway measurement
+- Downstream pathway evidence
+- Indirect biological association
+
+Direct measurement of the proposed target or pathway provides stronger mechanistic evidence.
+
+#### 3. Context Relevance
+
+Evidence is evaluated according to its relevance to the intended biological context:
+
+- Direct human skin evidence
+- Skin tissue or skin cell evidence
+- Non-skin evidence
+
+Skin-specific evidence receives greater weight for ELYON skin-health assessments.
+
+#### 4. Independent Replication
+
+Evidence strength increases when findings are reproduced across:
+
+- independent research groups
+- different experimental models
+- different study populations
+- multiple publications
+
+### Important considerations
+
+Formulation-specific effects should be distinguished from effects attributable to the compound itself.
+
+Positive, negative and non-significant findings should all be retained to reduce selective reporting bias.
+
+Review articles may provide supporting context but should not be counted as independent primary experimental evidence.
+
+### Score
+
+Scientific Evidence Score: 0–20
 
 ## Pillar 4
 ### Safety Profile
