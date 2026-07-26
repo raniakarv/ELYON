@@ -4,7 +4,47 @@
   "context": "Skin",
   "search_query": "curcumin AND (NFE2L2 OR NRF2) AND skin",
   "total_pubmed_results": 31,
-  "primary_evidence": [],
+  "primary_evidence": [
+  {
+    "pmid": "28757910",
+    "year": 2017,
+    "title": "Curcumin Protects Skin against UVB-Induced Cytotoxicity via the Keap1-Nrf2 Pathway: The Use of a Microemulsion Delivery System",
+    "study_type": "In vitro experimental study",
+    "biological_model": "Epidermal keratinocyte cell culture",
+    "intervention": "Curcumin-loaded microemulsion",
+    "target_pathway": "Keap1-Nrf2-EpRE pathway",
+    "experimental_readout": "HO-1 mRNA expression measured by real-time PCR",
+    "main_findings": [
+      "Curcumin-loaded microemulsion enhanced Keap1-Nrf2-EpRE pathway activation compared with free curcumin",
+      "HO-1 mRNA expression increased approximately 3.65-fold following treatment with curcumin-loaded microemulsion",
+      "Catalase reduced HO-1 induction to approximately 2.57-fold, supporting partial involvement of hydrogen peroxide"
+    ],
+    "skin_relevance": "Direct",
+    "evidence_role": "Mechanistic support",
+    "formulation_specific": true
+  }
+  {
+  "pmid": "40559384",
+  "year": 2025,
+  "title": "Oral Glucoraphanin and Curcumin Supplements Modulate Key Cytoprotective Enzymes in the Skin of Healthy Human Subjects: A Randomized Trial",
+  "study_type": "Randomized human intervention trial",
+  "biological_model": "Healthy human subjects with skin punch biopsies",
+  "sample_size": 18,
+  "curcumin_group_size": 6,
+  "intervention": "Oral curcumin supplementation, 1000 mg/day",
+  "target_pathway": "Keap1-Nrf2-ARE pathway",
+  "experimental_readout": "NQO1 mRNA expression in human skin biopsies",
+  "main_findings": [
+    "Curcumin supplementation increased NQO1 mRNA expression in human skin approximately 3.3-fold compared with baseline",
+    "Inflammatory cytokine gene expression was reduced across treatment groups",
+    "Supplement effects on UVB-induced erythema were not statistically significant"
+  ],
+  "skin_relevance": "Direct human in vivo",
+  "evidence_role": "Human downstream pathway support",
+  "direct_nfe2l2_measurement": false,
+  "formulation_specific": false
+}
+],
   "supporting_literature": [],
   "excluded_studies": []
 }
