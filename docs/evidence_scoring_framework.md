@@ -35,7 +35,7 @@ Evaluates the strength of evidence supporting the molecular interaction between 
 
 #### 2. Biological Plausibility
 
-Evaluates how biologically relevant the target is for skin physiology and pathology.
+Evaluates the biological importance of the proposed target in skin physiology, homeostasis and disease-related molecular pathways.
 
 #### 3. Molecular Specificity
 
@@ -43,7 +43,7 @@ Evaluates how specifically and consistently the proposed molecular mechanism has
 
 #### 4. Database Confidence
 
-Evaluates the consistency of the molecular relationship across curated biological databases.
+Evaluates the consistency and independent corroboration across curated biological knowledge resources.
 
 ### Important Considerations
 
@@ -73,7 +73,7 @@ Target Evidence reflects the strength of evidence supporting the molecular inter
 - 1 point: Computational prediction only
 - 2 points: Single experimental observation supporting the interaction
 - 3 points: Multiple experimental observations
-- 4 points: Direct molecular measurements (gene expression, protein expression or activity assays)
+- 4 points: Direct molecular evidence demonstrating modulation of the proposed target (e.g., target expression, protein abundance, activity assays or pathway-specific molecular readouts)
 - 5 points: Multiple direct molecular studies supporting the interaction
 - 6 points: Strong evidence from independent studies using complementary molecular techniques
 - 7 points: Extensive, reproducible molecular evidence supported by multiple independent studies and curated biological databases
@@ -109,7 +109,7 @@ Compounds with multiple biological targets are not penalized, provided that a we
 
 #### Database Confidence — 0–3 points
 
-Database Confidence reflects the consistency of the proposed molecular relationship across curated biological databases.
+Database Confidence reflects the degree to which independent curated biological resources converge on the same molecular relationship.
 
 - 0 points: No curated database support
 - 1 point: Supported by one curated biological database
