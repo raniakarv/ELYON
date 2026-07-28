@@ -19,19 +19,104 @@ Overall Score = Weighted combination of five evidence pillars.
 ## Pillar 1
 ### Molecular Evidence
 
-Questions
+## Objective
 
-- Which proteins does the compound target?
-- Are these proteins associated with skin biology?
-- Is the mechanism of action understood?
+Evaluate the strength and reliability of the molecular relationship between a compound and its biological target(s).
 
-Example output
+Molecular Evidence focuses on target-level evidence, biological plausibility, mechanistic specificity and confidence across curated biological databases, independently of clinical or experimental outcome studies.
 
-Score:
-0–20
+### Evidence Dimensions
 
----
+Molecular Evidence is evaluated across four complementary dimensions:
 
+#### 1. Target Evidence
+
+Evaluates the strength of evidence supporting the molecular interaction between the compound and its biological target(s).
+
+#### 2. Biological Plausibility
+
+Evaluates how biologically relevant the target is for skin physiology and pathology.
+
+#### 3. Molecular Specificity
+
+Evaluates how specifically and consistently the proposed molecular mechanism has been characterized.
+
+#### 4. Database Confidence
+
+Evaluates the consistency of the molecular relationship across curated biological databases.
+
+### Important Considerations
+
+Target evidence should be distinguished from downstream biological effects. Direct molecular interactions provide stronger evidence than indirect associations.
+
+Compounds with multiple molecular targets should not automatically receive higher scores. The quality and characterization of the primary molecular mechanism are prioritized over the number of reported targets.
+
+Curated biological databases provide complementary evidence and should be interpreted collectively rather than individually.
+
+### Score Architecture
+The Molecular Evidence Score is calculated across four complementary dimensions:
+
+- Target Evidence: 0–7 points
+- Biological Plausibility: 0–5 points
+- Molecular Specificity: 0–5 points
+- Database Confidence: 0–3 points
+
+Maximum Molecular Evidence Score: 20 points.
+
+Evidence from curated biological databases should complement, but not replace, experimental molecular evidence.
+
+#### Target Evidence — 0–7 points
+
+Target Evidence reflects the strength of evidence supporting the molecular interaction between the evaluated compound and its proposed biological target(s).
+
+- 0 points: No molecular evidence supporting the interaction
+- 1 point: Computational prediction only
+- 2 points: Single experimental observation supporting the interaction
+- 3 points: Multiple experimental observations
+- 4 points: Direct molecular measurements (gene expression, protein expression or activity assays)
+- 5 points: Multiple direct molecular studies supporting the interaction
+- 6 points: Strong evidence from independent studies using complementary molecular techniques
+- 7 points: Extensive, reproducible molecular evidence supported by multiple independent studies and curated biological databases
+
+Target Evidence reflects the quality and reproducibility of the molecular interaction rather than the number of reported biological effects.
+Review articles may support mechanistic interpretation but should not independently increase the Target Evidence score.
+
+#### Biological Plausibility — 0–5 points
+
+Biological Plausibility reflects how strongly the proposed biological target is associated with skin physiology and pathology.
+
+- 0 points: No established biological relevance to skin
+- 1 point: Weak or indirect association with skin biology
+- 2 points: Moderate association supported by limited evidence
+- 3 points: Established role in one major skin-related biological process
+- 4 points: Established role in multiple skin-related biological processes
+- 5 points: Central regulator of multiple skin-relevant biological pathways
+
+Biological Plausibility evaluates the biological importance of the target itself rather than the strength of evidence supporting the compound.
+
+#### Molecular Specificity — 0–5 points
+
+Molecular Specificity reflects how clearly the molecular mechanism of the compound has been characterized.
+
+- 0 points: Molecular mechanism is unknown
+- 1 point: Very broad or nonspecific biological activity
+- 2 points: Multiple possible mechanisms with limited characterization
+- 3 points: One well-supported primary molecular mechanism
+- 4 points: Primary mechanism clearly established with secondary supporting mechanisms
+- 5 points: Highly characterized molecular mechanism with strong target specificity or exceptionally well-defined pathway modulation
+
+Compounds with multiple biological targets are not penalized, provided that a well-supported primary molecular mechanism has been established.
+
+#### Database Confidence — 0–3 points
+
+Database Confidence reflects the consistency of the proposed molecular relationship across curated biological databases.
+
+- 0 points: No curated database support
+- 1 point: Supported by one curated biological database
+- 2 points: Supported by multiple curated biological databases
+- 3 points: Consistent support across several high-quality curated biological resources
+
+Examples of curated resources include UniProt, CTD, Reactome, Gene Ontology, KEGG, ChEMBL and DrugBank.
 ## Pillar 2
 ### Biological Pathways
 
